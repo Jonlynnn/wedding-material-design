@@ -162,6 +162,14 @@ description: Create personalized wedding visual directions and materials based o
 
 用小白能理解的语言说明商家交付：通常优先询问商家是否接受印刷用 PDF，并按其要求处理尺寸、出血、字体嵌入或转曲、图片分辨率和色彩；如商家指定 AI、PSD、TIFF 等格式，按其要求准备。屏幕用图通常可提供 PNG 或 JPEG；可编辑源文件如需后续修改可另行交付。不要声称低分辨率照片可直接满足大幅印刷，提醒商家检查实际尺寸下的清晰度。明确区分已生成的文件与建议用户向商家提供的文件，不虚称完成。
 
+### 印刷文件精度与可打印尺寸
+
+用户需要印刷成品时，尽量一次交付可供商家检查的印刷文件，而不是只给低分辨率预览。先确定目标成品尺寸、方向及商家要求；有条件时以可编辑的矢量文字、线条和版式制作 PDF，嵌入图片并检查字体、出血和色彩。按照用户希望优先以 600 DPI 作为小型精细印刷图像的目标，但不要把 600 DPI 或 CMYK 视为所有印刷的强制标准：实际要求取决于材料、观看距离、工艺和商家；300 DPI 或其他规格也可能被商家接受。矢量文字及线条不受固定像素 DPI 限制，仍需核对 PDF 内每张位图在实际排版尺寸下的有效分辨率。
+
+以像素数 ÷ 实际打印英寸数计算有效 DPI（英寸 = 毫米 ÷ 25.4），分别检查宽高和每张重要嵌入图片；如果需要 600 DPI，所需像素至少为尺寸毫米 ÷ 25.4 × 600，向上取整。A4（210 × 297 mm）成品约需 4961 × 7016 像素，A5（148 × 210 mm）约需 3497 × 4961 像素，均不含出血；出血另计。A 系列纵横比相同，但同一张图打印到 A4 与 A5 的有效 DPI 不同。对于任意尺寸，说明是等比例缩放、留白还是裁切；不要声称任何比例都能无裁切适配。
+
+商家要求 CMYK 时，使用其指定的 ICC 配置文件转换并检查输出颜色；不要仅修改标签或未转换就宣称 CMYK，配置文件未知时向用户说明并请商家确认，特殊纸张建议打样。输出后实际检查 PDF 页面尺寸、出血、色彩空间及嵌入图像有效 DPI，说明文件格式、实际像素或矢量、成品尺寸、出血、色彩配置、对应尺寸的有效 DPI 和校验结果；若不能检查或生成，应如实标注未验证，不能宣称印刷就绪。仅更改 DPI 元数据或放大像素不能恢复照片细节；不足时明确提醒，建议更高分辨率素材、缩小尺寸或与商家确认，不虚称达到真正的细节质量。
+
 ### 纸张、板材和贴纸建议
 
 根据物料用途、使用场景和当地供应情况主动推荐材料，并用容易理解的话说明视觉效果、触感及限制；价格和是否有货以商家报价为准。以下为可选择的方向，不是固定搭配：
@@ -335,6 +343,14 @@ Assume the user may be new to design and printing. Proactively suggest common si
 State whether dimensions are finished or unfolded, orientation, sides and quantity. Ask the user to confirm dimensions, bleed, color mode, resolution, material and finishing with the supplier before ordering. Ask whether 3 mm bleed per side is appropriate; it is not a universal rule, particularly for large-format printing.
 
 Explain supplier deliverables in plain language: ask whether print-ready PDF is accepted and follow the supplier’s requirements for dimensions, bleed, embedded or outlined fonts, image resolution and color. If they require AI, PSD, TIFF or another format, follow their specification. PNG or JPEG can be suitable for screen use; provide editable source files separately when later edits are needed. Warn that low-resolution photos may be unsuitable for large prints and ask the supplier to check sharpness at final size. Distinguish files actually produced from files merely recommended; never claim a file exists when it does not.
+
+### Print resolution and printable dimensions
+
+For print deliverables, aim to provide an actual production-ready file rather than only a low-resolution preview, subject to available tools and supplier specifications. Establish finished size, orientation and printer requirements first. Where possible build an editable PDF with vector text and linework, checking embedded images, fonts, bleed and color. Prefer the user’s requested 600 DPI as a target for fine small-format raster printing, but do not claim 600 DPI or CMYK is universally mandatory; requirements vary by process, substrate, viewing distance and supplier. Vector elements have no fixed pixel DPI; check each embedded bitmap’s effective resolution at its placed size.
+
+Calculate effective DPI as pixels divided by print size in inches (inches = mm / 25.4), separately for width and height and for important embedded images. At 600 DPI, the minimum pixels per side are ceil(mm / 25.4 × 600). Approximate finished dimensions excluding bleed: A4 (210 × 297 mm) 4961 × 7016 pixels; A5 (148 × 210 mm) 3497 × 4961 pixels; add bleed separately. A-series aspect ratios match, but the same image has different effective DPI at A4 and A5. For other sizes specify proportional scaling, margins or cropping; do not claim all aspect ratios fit without cropping.
+
+When CMYK is required, convert using the printer’s specified ICC profile and inspect the output; do not merely relabel an RGB image as CMYK. If the profile is unknown, tell the user and ask the printer; suggest proofing on special stock. Actually inspect PDF page size, bleed, color space and effective embedded image DPI, reporting file format, pixel or vector status, finished dimensions, bleed, color profile, effective DPI at each suggested size and validation results. If generation or inspection is unavailable, mark it unverified rather than claiming print readiness. Changing DPI metadata or upsampling does not restore missing detail: disclose limitations and request higher-resolution assets, a smaller print size or supplier review.
 
 ### Materials and printing advice
 

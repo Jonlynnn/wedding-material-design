@@ -11,6 +11,14 @@ description: Create personalized wedding visual directions and materials based o
 
 根据新人的故事、喜好和要求，规划婚礼主视觉与所需物料，指导素材准备、搭配和制作，并协调可用创意工具。只了解与视觉和物料有关的场景信息；婚礼预算、场地安排和婚策沟通不属于此 Skill 的职责。尊重文化背景和喜好，喜庆可通过色彩、光感、材质、文字、图形和仪式感表达。
 
+### 创作节奏：先交付一版高完成度作品
+
+默认先做出一版最符合现有资料的完整作品，而不是反复讨论或让用户在多个方向中选择。先内部综合参考图、用途、视觉层级、色彩、字体、人物与故事，果断选定合理方案并调用可用的图像或设计工具；直接交付可查看的结果，简短说明设计思路与必要的假设。用户明确要求多个方案或比较时，再按要求提供。
+
+仅当缺少会阻止制作的关键素材、真实身份信息或使用授权时，集中提出必要问题；非关键选择自行判断，缺失的姓名、日期等用明确占位符。可先提供概念稿并标注待确认项，印刷前再核对最终内容。用户要求真实人物照片海报但未提供照片时，说明需要照片，可先做带占位的布局；不能凭空生成或假称是用户照片。
+
+交付前快速检查主体是否突出、构图与留白、字体及对比度、喜庆与个性、人物保真、文字与尺寸；发现明显问题则修正后交付，不把无限试错、冗长方案或过度确认当成质量保障。需要更多迭代时根据用户反馈进行；不能保证每次结果都是客观最强，但应尽力用现有工具做出最佳首版。工具不可用时如实说明并给出可执行替代，不伪称有成品。
+
 ### 婚礼策划档案：自动查找与建档
 
 对需要持续协作的新人，使用项目中的独立 Markdown 档案。每次调用时先执行以下流程，再根据用户本次需求工作；只需要一次性回答或用户明确不想建档时，无需创建。
@@ -77,11 +85,11 @@ description: Create personalized wedding visual directions and materials based o
 
 ### 两人的名字与专属 slogan
 
-先确认物料是否需要真实姓名；可按用户选择使用中文名、已有英文名、昵称、首字母、象征性的英文称呼或完全不放姓名。象征性名字不是法定姓名或已有英文名，先解释含义并经双方确认，避免未经核实的翻译和隐含文化误解。基于真实线索提出 3—4 条风格不同、简短且适合该物料的 slogan，附语言及含义，支持调整或不用 slogan；核对英文自然度和拼写，不把虚构的经历写成事实。
+先确认物料是否需要真实姓名；可按用户选择使用中文名、已有英文名、昵称、首字母、象征性的英文称呼或完全不放姓名。象征性名字不是法定姓名或已有英文名，先解释含义并经双方确认，避免未经核实的翻译和隐含文化误解。基于真实线索优先给出一条推荐 slogan；用户希望比较时可提出 3—4 条不同风格的选项，附语言及含义，支持调整或不用 slogan；核对英文自然度和拼写，不把虚构的经历写成事实。
 
 ### 插画方向与工具
 
-需要探索时，根据故事和参考图提出 3—4 个实质不同的插画方向，如简洁线描、水彩、照片拼贴、轻松漫画；说明色彩、构图和用途，用户已有明确选择则直接执行。可用当前环境的图像工具生成可对比的草图；不能生成时提供清晰的文字方案和提示词，不假称已生成图片。尊重照片中人物的身份与使用范围。
+默认选出最适合的插画方向直接制作；用户要求比较时，根据故事和参考图提出 3—4 个实质不同的插画方向，如简洁线描、水彩、照片拼贴、轻松漫画；说明色彩、构图和用途，用户已有明确选择则直接执行。可用当前环境的图像工具生成可对比的草图；不能生成时提供清晰的文字方案和提示词，不假称已生成图片。尊重照片中人物的身份与使用范围。
 
 可选参考工具：[ComfyUI](https://github.com/Comfy-Org/ComfyUI)、[Stable Diffusion WebUI](https://github.com/AUTOMATIC1111/stable-diffusion-webui)、[Invoke](https://github.com/invoke-ai/InvokeAI)。这些是外部图像生成项目，不是本 Skill 内置功能；根据当前环境、许可、硬件及用户意愿选择，不要求普通用户安装，不擅自下载、上传照片或运行。优先使用已有工具。
 
@@ -125,7 +133,7 @@ description: Create personalized wedding visual directions and materials based o
 
 从新人故事、婚礼氛围、场地或季节中寻找具体线索，转化为配色、构图、字体、图形、材质与文案。避免将花朵、双喜、红金或其他常见元素当成默认模板；用户喜欢或文化传统需要时可以使用，并为其赋予适合场景的表达。
 
-开放性需求可提出 2—3 个视觉语言真正不同的方向，而非仅更换颜色。每个方向说明概念、灵感、情绪、主色和辅助色、排版与材质、喜庆感的表达，以及如何适配宾客、场地和各项物料。用户已明确物料和设计方向时直接按要求制作或深化，无需强制提供多个方案，也不要反复确认已明确的信息；仅在缺少制作必需信息时提出针对性问题。
+开放性需求默认选择一个最适合的方向并直接制作；用户要求比较时可提出 2—3 个视觉语言真正不同的方向，而非仅更换颜色，并简要说明与新人及用途的联系。用户已明确物料和设计方向时直接按要求制作或深化，无需强制提供多个方案，也不要反复确认已明确的信息；仅在缺少制作必需信息时提出针对性问题。
 
 ### 尺寸和商家交付指导
 
@@ -181,6 +189,14 @@ Agent 提供提醒和可转发给商家的说明，不擅自下单、联系商�
 ## English
 
 Plan personalized wedding visual directions and materials from the couple’s story, preferences and requests; guide material choices and asset preparation, and coordinate available creative tools. Gather setting information only as needed for the visuals. Wedding budgets, venue arrangements and planner coordination are outside this skill. Celebrate through color, materials, typography and imagery while respecting cultural traditions.
+
+### Creative pace: deliver a strong first version
+
+By default, make and deliver one well-resolved result based on the information available instead of repeatedly discussing options. Internally assess references, purpose, visual hierarchy, color, typography, people and story, make reasonable creative decisions and use available image or design tools. Show an actual result when possible, briefly explaining the concept and essential assumptions. Provide multiple alternatives when the user explicitly requests them.
+
+Ask only for essential missing assets, identity details or permission that genuinely prevent the work, grouping questions together. Make nonessential choices yourself; use clear placeholders for missing names or dates. A concept can proceed with pending details, which must be verified before printing. If a real-person photo poster is requested without a photo, request one and offer a placeholder layout; do not invent or claim a generated image is their photograph.
+
+Before delivery, quickly check the focal point, composition, whitespace, type and contrast, celebratory personality, identity fidelity, copy and dimensions; fix obvious issues without endless iterations or excessive confirmations. Iterate on user feedback. Aim for the strongest feasible first version without claiming an objective guarantee. If a tool is unavailable, say so and offer a usable alternative without claiming a finished artifact.
 
 ### Find or create the wedding planning brief
 
@@ -246,11 +262,11 @@ Summarize the details the user approves, then translate them into motifs such as
 
 ### Names and a couple’s slogan
 
-Ask whether names are needed. Offer real names, existing English names, nicknames, initials, a symbolic English name or no names, according to the couple’s wishes. A symbolic name is not a legal or established English name: explain its meaning and obtain the couple’s approval. From real details, propose three or four short slogans with distinct tones, language and meaning; allow edits or no slogan. Check idiom and spelling and do not present invented events as facts.
+Ask whether names are needed. Offer real names, existing English names, nicknames, initials, a symbolic English name or no names, according to the couple’s wishes. A symbolic name is not a legal or established English name: explain its meaning and obtain the couple’s approval. From real details, recommend one short slogan; offer three or four distinct choices when the user asks to compare, and allow edits or no slogan. Check idiom and spelling and do not present invented events as facts.
 
 ### Illustration options and tools
 
-When exploring, offer three or four meaningfully different illustration directions, such as line art, watercolor, photo collage or playful cartoons, with colors, composition and use; follow an existing user choice directly. Generate comparable drafts using available image tools if possible; otherwise provide clear concepts and prompts without claiming images were created. Respect identities and agreed photo use.
+By default, choose and produce the most suitable illustration direction; when the user asks to compare, offer three or four meaningfully different illustration directions, such as line art, watercolor, photo collage or playful cartoons, with colors, composition and use; follow an existing user choice directly. Generate comparable drafts using available image tools if possible; otherwise provide clear concepts and prompts without claiming images were created. Respect identities and agreed photo use.
 
 Optional external tools include [ComfyUI](https://github.com/Comfy-Org/ComfyUI), [Stable Diffusion WebUI](https://github.com/AUTOMATIC1111/stable-diffusion-webui), and [Invoke](https://github.com/invoke-ai/InvokeAI). These are external projects, not embedded capabilities. Prefer tools already available; consider licenses, hardware and user preferences, and do not install software or upload photos without authorization.
 
@@ -280,7 +296,7 @@ For illustrations without a specified style, first explore refined, simple line 
 
 Turn a meaningful detail, mood, venue or season into choices of color, typography, layout, imagery, materials and copy. Avoid automatically relying on generic wedding motifs; use traditional elements when requested or appropriate to the culture.
 
-For an open brief, offer two or three genuinely different visual directions, not merely different colors. For each, explain its inspiration, mood, primary and secondary colors, composition and materials, celebratory character, and adaptation to guests, venue and each requested item. If the user has specified the materials and design direction, proceed directly without forcing multiple proposals or asking again about settled choices; ask focused questions only when necessary to produce the work.
+For an open brief, select the strongest suitable direction and produce it directly. Offer two or three genuinely different directions only if the user asks to compare, briefly explaining their relevance. If the user has specified the materials and design direction, proceed directly without forcing multiple proposals or asking again about settled choices; ask focused questions only when necessary to produce the work.
 
 ### Dimensions and files for the supplier
 

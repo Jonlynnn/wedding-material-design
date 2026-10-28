@@ -162,6 +162,15 @@ description: Create personalized wedding visual directions and materials based o
 
 用小白能理解的语言说明商家交付：通常优先询问商家是否接受印刷用 PDF，并按其要求处理尺寸、出血、字体嵌入或转曲、图片分辨率和色彩；如商家指定 AI、PSD、TIFF 等格式，按其要求准备。屏幕用图通常可提供 PNG 或 JPEG；可编辑源文件如需后续修改可另行交付。不要声称低分辨率照片可直接满足大幅印刷，提醒商家检查实际尺寸下的清晰度。明确区分已生成的文件与建议用户向商家提供的文件，不虚称完成。
 
+### 按用途专业推荐尺寸与载体
+
+先判断成品用途、展示位置、观看距离、横竖比例和已有展架或画框，再给出一个具体推荐及简短理由。A4 和 A5 只是示例，不要作为海报的默认上限；也不要将所有海报固定为 A3。尺寸是画面大小，KT 板是可用于裱贴或印制的板材，两者不是互斥选项。
+
+- 近距离展示的小海报或桌面展示可从 A3（297 × 420 mm）考虑；空间、文字量或现场需要不同可调整。
+- 迎宾牌、入口或需要从较远处看到的照片海报，可考虑 A2（420 × 594 mm）或 600 × 900 mm 等较大尺寸，并结合展架、摆放条件与现场背景推荐；重要文字按实际观看距离检查。
+- 独立摆放或需要有硬挺支撑的海报可询问商家使用 KT 板；也可选择纸质海报配画框或展架。说明厚度、覆膜、重量、户外耐候与固定方式需按实际用途和商家方案确认。
+- 根据推荐成品尺寸和实际文件，计算有效 DPI；尺寸越大并不自动要求同一 DPI，须结合观看距离及商家要求。若照片或图像不够清晰，应明确说明并建议提高素材分辨率、调整成品尺寸或请商家确认，不承诺放大后仍有原始细节。确认比例及是否裁切、留白，出血另计。
+
 ### 印刷文件精度与可打印尺寸
 
 用户需要印刷成品时，尽量一次交付可供商家检查的印刷文件，而不是只给低分辨率预览。先确定目标成品尺寸、方向及商家要求；有条件时以可编辑的矢量文字、线条和版式制作 PDF，嵌入图片并检查字体、出血和色彩。按照用户希望优先以 600 DPI 作为小型精细印刷图像的目标，但不要把 600 DPI 或 CMYK 视为所有印刷的强制标准：实际要求取决于材料、观看距离、工艺和商家；300 DPI 或其他规格也可能被商家接受。矢量文字及线条不受固定像素 DPI 限制，仍需核对 PDF 内每张位图在实际排版尺寸下的有效分辨率。
@@ -343,6 +352,15 @@ Assume the user may be new to design and printing. Proactively suggest common si
 State whether dimensions are finished or unfolded, orientation, sides and quantity. Ask the user to confirm dimensions, bleed, color mode, resolution, material and finishing with the supplier before ordering. Ask whether 3 mm bleed per side is appropriate; it is not a universal rule, particularly for large-format printing.
 
 Explain supplier deliverables in plain language: ask whether print-ready PDF is accepted and follow the supplier’s requirements for dimensions, bleed, embedded or outlined fonts, image resolution and color. If they require AI, PSD, TIFF or another format, follow their specification. PNG or JPEG can be suitable for screen use; provide editable source files separately when later edits are needed. Warn that low-resolution photos may be unsuitable for large prints and ask the supplier to check sharpness at final size. Distinguish files actually produced from files merely recommended; never claim a file exists when it does not.
+
+### Recommend dimensions and substrate for the use
+
+Start with the purpose, placement, viewing distance, orientation, aspect ratio and existing stand or frame, then give a specific recommendation and brief rationale. A4 and A5 are examples, not poster size limits; A3 is not mandatory for every poster. Size describes the artwork dimensions; KT foam board is a possible mounting or printing substrate, so they are not mutually exclusive.
+
+- For small posters or tabletop displays viewed nearby, consider A3 (297 × 420 mm), adjusted for available space and content.
+- For welcome signs or photo posters viewed from farther away, consider A2 (420 × 594 mm), 600 × 900 mm or another appropriate larger format, taking the stand, setting and background into account. Check important text at the intended viewing distance.
+- For a freestanding or rigid poster, ask the printer about KT foam board; framed paper or a stand may also suit. Confirm thickness, lamination, weight, outdoor suitability and mounting for the actual use.
+- Calculate effective DPI from the file and recommended finished dimensions; the required resolution may vary with viewing distance and supplier. If source images lack detail, disclose it and suggest higher-resolution assets, a smaller size or a printer review. Specify cropping or margins and account for bleed separately.
 
 ### Print resolution and printable dimensions
 

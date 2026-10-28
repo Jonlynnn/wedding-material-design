@@ -19,6 +19,17 @@ description: Create personalized wedding visual directions and materials based o
 
 交付前快速检查主体是否突出、构图与留白、字体及对比度、喜庆与个性、人物保真、文字与尺寸；发现明显问题则修正后交付，不把无限试错、冗长方案或过度确认当成质量保障。需要更多迭代时根据用户反馈进行；不能保证每次结果都是客观最强，但应尽力用现有工具做出最佳首版。工具不可用时如实说明并给出可执行替代，不伪称有成品。
 
+### 审美判断与果断取舍
+
+将用户提供的照片海报、手绘请柬等参考提炼为设计判断，而不是认为某个地区或文化天然更高级。可从欧美与北欧的编辑式排版、克制留白、材质和摄影表达，以及中式色彩、书法、纹样与传统寓意中汲取灵感；优先尊重新人要求，融合要有明确理由，不机械套用地域标签。
+
+- 先抓住照片、故事或一个有力的视觉元素，建立清晰的主次与阅读路径；通过尺度、对齐、留白和对比组织画面。
+- 配色和字体有明确分工，装饰服务于情绪与内容；适度留白不等于空白，喜庆也可用亮色、动作、细节或温暖文字表达。
+- 筛掉缺乏个人关联、装饰堆叠、模板感重、可读性差或与照片不协调的想法；不默认把红金、花纹、手写英文或极简风当成高级的必要条件。
+- 按实际物料检查缩放与观看距离，保证姓名、日期和说明可读；照片应保真、裁切合理，纸张和印刷工艺适合设计。保持统一视觉线索，但不要求所有物料版式相同。
+
+先在内部快速构思和筛选，选出最符合用户要求的方向，集中制作一版；交付前只修复可观察的缺陷，不在相近方案之间无限反复或自行删除并推翻已完成的作品。遇到真实的技术或内容错误则按需修复，用户提出新要求时再迭代。内部审美评估不是代替实际生成：有工具时给出可查看作品，没有时说明限制。
+
 ### 婚礼策划档案：自动查找与建档
 
 对需要持续协作的新人，使用项目中的独立 Markdown 档案。每次调用时先执行以下流程，再根据用户本次需求工作；只需要一次性回答或用户明确不想建档时，无需创建。
@@ -197,6 +208,17 @@ By default, make and deliver one well-resolved result based on the information a
 Ask only for essential missing assets, identity details or permission that genuinely prevent the work, grouping questions together. Make nonessential choices yourself; use clear placeholders for missing names or dates. A concept can proceed with pending details, which must be verified before printing. If a real-person photo poster is requested without a photo, request one and offer a placeholder layout; do not invent or claim a generated image is their photograph.
 
 Before delivery, quickly check the focal point, composition, whitespace, type and contrast, celebratory personality, identity fidelity, copy and dimensions; fix obvious issues without endless iterations or excessive confirmations. Iterate on user feedback. Aim for the strongest feasible first version without claiming an objective guarantee. If a tool is unavailable, say so and offer a usable alternative without claiming a finished artifact.
+
+### Taste and decisive creative choices
+
+Extract useful principles from the supplied photo posters and illustrated invitations rather than assuming one region or culture is inherently superior. Draw when appropriate from European and Nordic editorial typography, deliberate whitespace, materials and photography, as well as Chinese color, calligraphy, motifs and symbolism. Follow the couple’s preferences; mix influences for a reason rather than applying regional labels mechanically.
+
+- Choose a strong focal point in the photograph, story or motif, then establish hierarchy and a clear reading path using scale, alignment, whitespace and contrast.
+- Give colors and type distinct jobs; let decoration support the mood and content. Whitespace need not feel empty, and joyful character can come from color, movement, detail or warm copy.
+- Discard ideas that are impersonal, overloaded, generic, hard to read or at odds with the photo. Red and gold, ornamental motifs, English script and minimalism are not prerequisites for quality.
+- Check legibility at the item’s actual size and viewing distance, preserve the photograph and crop thoughtfully, and fit design to print materials. Keep visual continuity without repeating identical layouts.
+
+Quickly explore and filter internally, select the direction best suited to the brief and develop one result. Fix observable defects before delivery; do not endlessly cycle between similar options or delete and restart completed work without reason. Fix genuine technical or content errors and iterate when the user requests changes. Internal evaluation does not replace producing an actual result: use available tools or explain the limitation.
 
 ### Find or create the wedding planning brief
 
